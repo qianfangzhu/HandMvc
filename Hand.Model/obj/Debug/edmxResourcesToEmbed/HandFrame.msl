@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="testFrameModelStoreContainer" CdmEntityContainer="testFrameEntities1">
+    <EntitySetMapping Name="Department">
+      <EntityTypeMapping TypeName="testFrameModel.Department">
+        <MappingFragment StoreEntitySet="Department">
+          <ScalarProperty Name="dept_leaderNo" ColumnName="dept_leaderNo" />
+          <ScalarProperty Name="dept_id" ColumnName="dept_id" />
+          <ScalarProperty Name="dept_pid" ColumnName="dept_pid" />
+          <ScalarProperty Name="dept_name" ColumnName="dept_name" />
+          <ScalarProperty Name="dept_pname" ColumnName="dept_pname" />
+          <ScalarProperty Name="dept_leader" ColumnName="dept_leader" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="employee">
+      <EntityTypeMapping TypeName="testFrameModel.employee">
+        <MappingFragment StoreEntitySet="employee">
+          <ScalarProperty Name="emp_id" ColumnName="emp_id" />
+          <ScalarProperty Name="emp_No" ColumnName="emp_No" />
+          <ScalarProperty Name="emp_name" ColumnName="emp_name" />
+          <ScalarProperty Name="emp_mobile" ColumnName="emp_mobile" />
+          <ScalarProperty Name="emp_email" ColumnName="emp_email" />
+          <ScalarProperty Name="emp_role_id" ColumnName="emp_role_id" />
+          <ScalarProperty Name="emp_isvalid" ColumnName="emp_isvalid" />
+          <ScalarProperty Name="emp_workaddress" ColumnName="emp_workaddress" />
+          <ScalarProperty Name="emp_jointime" ColumnName="emp_jointime" />
+          <ScalarProperty Name="emp_quit" ColumnName="emp_quit" />
+          <ScalarProperty Name="emp_dept_id" ColumnName="emp_dept_id" />
+          <ScalarProperty Name="emp_post" ColumnName="emp_post" />
+          <ScalarProperty Name="emp_pwd" ColumnName="emp_pwd" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Role">
+      <EntityTypeMapping TypeName="testFrameModel.Role">
+        <MappingFragment StoreEntitySet="Role">
+          <ScalarProperty Name="role_id" ColumnName="role_id" />
+          <ScalarProperty Name="role_name" ColumnName="role_name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="WorkFlow">
+      <EntityTypeMapping TypeName="testFrameModel.WorkFlow">
+        <MappingFragment StoreEntitySet="WorkFlow">
+          <ScalarProperty Name="Work_ApproverNo" ColumnName="Work_ApproverNo" />
+          <ScalarProperty Name="Work_Status" ColumnName="Work_Status" />
+          <ScalarProperty Name="Work_CreateTime" ColumnName="Work_CreateTime" />
+          <ScalarProperty Name="Work_DeptId" ColumnName="Work_DeptId" />
+          <ScalarProperty Name="Work_EmpNo" ColumnName="Work_EmpNo" />
+          <ScalarProperty Name="Work_Content" ColumnName="Work_Content" />
+          <ScalarProperty Name="Work_Title" ColumnName="Work_Title" />
+          <ScalarProperty Name="Work_Id" ColumnName="Work_Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

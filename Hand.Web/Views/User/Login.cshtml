@@ -1,0 +1,63 @@
+﻿
+@{
+    ViewBag.Title = "Login";
+}
+<link href="~/Content/Login/Css/reset.css" rel="stylesheet" />
+<link href="~/Content/Login/Css/style.css" rel="stylesheet" />
+<script src="~/Scripts/jquery-1.10.2.min.js"></script>
+<script src="~/Scripts/Login/md5.js"></script>
+<style>
+    body {
+        background-image: url('../../Content/Login/Image/login.jpg');
+        background-size: 100%;
+    }
+</style>
+<body>
+<input hidden="hidden" value="@ViewBag.ReturnUrl" id="returnUrl"/>
+<div class="page-container">
+    <h1>Login</h1>
+    <div id="Login_input" style="width:500px;height:230px;margin:0 auto;">
+        <input type="text" name="empNo" id="empNo" placeholder="Username">
+        <input type="password" name="pwd" id="pwd" placeholder="Password">
+        <button onclick="login()">Login</button>
+    </div>
+</div>
+<script>
+    function login() {
+        var returnUrl = $("#returnUrl").val();
+        var empNo = $("#empNo").val();
+        var pwd = $("#pwd").val();
+        var hash = md5(pwd);
+        if (empNo == "" || null) {
+            alert("请输入用户名");
+            return;
+        } else if (pwd == "" || null) {
+            alert( "请输密码");
+            return;
+        } else {
+            $.ajax({
+                url: "/User/LoginConfirm",
+                data: { empNo: empNo, pwd: hash },
+                type: "POST",
+                dataType: 'text',
+                success: function(data) {
+                    if (data == 1) {
+                        window.location.href = returnUrl;
+                    } else if (data == 0) {
+                        alert("用户名或密码不正确，请您重新输入！");
+                    } else {
+                        alert("输入异常，请重新输入！");
+                    }
+                },
+                error: function() {
+                    alert("输入异常，请重新输入！");
+                } //错误提示
+            });
+        }
+    }
+</script>
+</body>
+
+
+
+

@@ -1,0 +1,283 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+
+    <link href="~/Content/bootstrap.css" rel="stylesheet" />
+    <script src="~/Scripts/bootstrap.min.js"></script>
+    <script src="~/Scripts/jquery-1.10.2.min.js"></script>
+
+    <!--主页css-->
+    <link rel="stylesheet" href="~/content/HomePage.css?v=1.0">
+
+    <!--侧边栏css-->
+    <link rel="stylesheet" type="text/css" href="~/Content/sidebar_normalize.css" />
+    <link rel="stylesheet" type="text/css" href="~/Content/sidebar_demo.css" />
+    <link rel="stylesheet" type="text/css" href="~/Content/sidebar_component.css?r=20170928" />
+
+    <!--手风琴css-->
+    <link rel="stylesheet" href="~/Content/Accordion_styles.css" type="text/css" />
+
+    <!--侧边栏js-->
+    <script src="~/Scripts/sidebar.js"></script>
+    <script src="~/Scripts/sidebar_gnmenu.js"></script>
+
+    <!--手风琴-->
+    <script src="~/Scripts/Accordion.js"></script>
+
+    <title>main_head</title>
+
+    <style>
+    </style>
+
+</head>
+<body>
+    <div id="wrap">
+        <div id="head">
+            <div id="logo">
+                <span>
+                    上海汉得信息技术股份有限公司
+                </span>
+            </div>
+            @*<div id="search">
+            </div>*@
+            <div id="icon">
+                <img src="~/Images/portrait.jpg" alt="">
+            </div>
+            <div id="tool">
+                <img src="~/Images/quit.png" alt="">
+            </div>
+        </div>
+        <div id="head_list">
+            <div id="menu" style="position: relative;z-index:999">
+                <ul id="gn-menu" class="gn-menu-main" style="width:60px;position: absolute">
+                    <li class="gn-trigger">
+                        <a class="gn-icon gn-icon-menu" id="pictureMenu" style="width:60px;">
+                            <img src="~/Images/open.jpg ">
+                        </a>
+                        <nav class="gn-menu-wrapper">
+                            <div class="gn-scroller">
+                                <ul class="gn-menu">
+                                    <li id="gn-menu_li" style="padding-left:20px;">
+                                        <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                                        <span id="glyphicon glyphicon-menu" class="glyphicon glyphicon-menu-right" aria-hidden="true"
+                                              style="float:right;line-height:60px;padding-right:20px;"></span>
+
+                                        <ul class="expmenuu">
+                                            <li>
+                                                <div class="header" id="header"
+                                                     style="width:336px;height:60px;margin-left:-80px;margin-top:-100px;background:white;">
+                                                    <span style="position: relative;bottom:12px;left:92px;">组织信息</span>
+                                                </div>
+                                                <span class="no">
+                                                    <ul class="menu"
+                                                        style="display:none;height:100%;width:340px;margin-left:-90px;border-top:2px solid #F7F7F7;border-bottom:2px solid #F7F7F7;width:353px;">
+                                                        <li class="menu_hover"
+                                                            style="height:50px;margin-left:-85px;">
+                                                            <a href="javascript:void(0)"
+                                                               style="margin-left:98px;font-size:17px;color:#5F6F81;line-height:30px;padding-left:90px;text-decoration:none;">
+                                                            <span>组织架构信息</span></a>
+                                                        </li>
+
+                                                        <li class="menu_hover"
+                                                            style="height:50px;margin-left:-85px;">
+                                                            <a href="javascript:void(0)"
+                                                               style="margin-left:98px;font-size:17px;color:#5F6F81;line-height:30px;padding-left:90px;text-decoration:none;">
+                                                            <span>公司岗位信息</span></a>
+                                                        </li>
+
+                                                        <li class="menu_hover"
+                                                            style="height:50px;margin-left:-85px;">
+                                                            <a href="javascript:void(0)"
+                                                               style="margin-left:98px;font-size:17px;color:#5F6F81;line-height:30px;padding-left:90px;text-decoration:none;">
+                                                                <span>&nbsp;&nbsp;&nbsp;&nbsp;部门管理</span>
+                                                            </a>
+                                                        </li>
+
+                                                    </ul>
+                                                </span>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li style="padding-left:20px;margin-top:-10%;">
+                                        <span class="glyphicon glyphicon-briefcase" aria-hidden="true"></span>
+                                        <span style="margin-left:70px;">办公管理</span>
+                                    </li>
+                                    <li style="padding-left:20px;">
+                                        <span class="glyphicon glyphicon-usd" aria-hidden="true"></span>
+                                        <span style="margin-left:70px;">成本管理</span>
+                                    </li>
+                                    <li style="padding-left:20px;">
+                                        <span class="glyphicon glyphicon-wrench" aria-hidden="true"></span>
+                                        <span style="margin-left:70px;">高级作品</span>
+                                    </li>
+                                    <li style="padding-left:20px;">
+                                        <span class="glyphicon glyphicon-user" aria-hidden="true"></span>
+
+                                        <span id="glyphicon glyphicon-menu_" class="glyphicon glyphicon-menu-right" aria-hidden="true"
+                                              style="float:right;line-height:60px;padding-right:20px;"></span>
+
+                                        <ul class="expmenuu">
+                                            <li>
+                                                <div class="header" id="header_"
+                                                     style="width:336px;height:60px;margin-left:-80px;margin-top:-100px;background:white;">
+                                                    <span style="position: relative;left:92px;bottom:12px;">人事信息</span>
+                                                </div>
+                                                <span class="no">
+                                                    <ul class="menu"
+                                                        style="display:none;height:100%;width:340px;margin-left:-90px;border-top:2px solid #F7F7F7;border-bottom:2px solid #F7F7F7;width:353px;">
+                                                        <li class="menu_hover"
+                                                            style="height:50px;margin-left:-85px;">
+                                                            <a href="javascript:void(0)"
+                                                               style="margin-left:98px;font-size:17px;color:#5F6F81;line-height:30px;padding-left:90px;text-decoration:none;">
+                                                            <span>我的个人信息</span></a>
+                                                        </li>
+
+                                                        <li class="menu_hover"
+                                                            style="height:50px;margin-left:-85px;">
+                                                            <a href="javascript:void(0)"
+                                                               style="margin-left:98px;font-size:17px;color:#5F6F81;line-height:30px;padding-left:90px;text-decoration:none;">
+                                                            <span>个人信息修改</span></a>
+                                                        </li>
+
+                                                        <li class="menu_hover"
+                                                            style="height:50px;margin-left:-85px;">
+                                                            <a href="javascript:void(0)"
+                                                               style="margin-left:98px;font-size:17px;color:#5F6F81;line-height:30px;padding-left:90px;text-decoration:none;">
+                                                                <span>&nbsp;&nbsp;&nbsp;&nbsp;员工查询</span>
+                                                            </a>
+                                                        </li>
+
+                                                    </ul>
+                                                </span>
+                                            </li>
+                                        </ul>
+
+
+                                    </li>
+                                    <li style="padding-left:20px;margin-top:-10%;">
+                                        <span class="glyphicon glyphicon-calendar" aria-hidden="true"></span>
+                                        <span style="margin-left:70px;">进度管理</span>
+                                    </li>
+                                    <li style="padding-left:20px;">
+                                        <span class="glyphicon glyphicon-file" aria-hidden="true"></span>
+                                        <span style="margin-left:70px;">报告</span>
+                                        <ul class="expmenuu"></ul>
+
+
+                                    </li>
+                                    <li style="padding-left:20px;margin-top:-10%;">
+                                        <span class="glyphicon glyphicon-adjust" aria-hidden="true"></span>
+                                        <span style="margin-left:70px;">仪表板</span>
+                                        <!--<span class="glyphicon glyphicon-menu-right" aria-hidden="true"-->
+                                        <!--style="float:right;line-height:60px;padding-right:20px;"></span>-->
+                                    </li>
+                                    <li style="padding-left:20px;">
+                                        <span class="glyphicon glyphicon-transfer" aria-hidden="true"></span>
+                                        <span style="margin-left:70px;">合作</span>
+                                        <!--<span class="glyphicon glyphicon-menu-right" aria-hidden="true"-->
+                                        <!--style="float:right;line-height:60px;padding-right:20px;"></span>-->
+                                    </li>
+                                    <li style="padding-left:20px;">
+                                        <span class="glyphicon glyphicon-earphone" aria-hidden="true"></span>
+                                        <span style="margin-left:70px;">联系</span>
+                                    </li>
+                                    <li style="padding-left:20px;border-bottom:2px solid #F1F1F1">
+                                        <span class="glyphicon glyphicon-folder-open" aria-hidden="true"></span>
+                                        <span style="margin-left:70px;">行政</span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </nav>
+                    </li>
+                    <script>
+                    new gnMenu(document.getElementById('gn-menu'));
+                    </script>
+                </ul>
+            </div>
+            <div id="list">
+                <div style="width:49%;height:60px;float:left;"></div>
+                <div style="width:51%;height:60px;background:#1D3152;float:left;">
+                    <ul style="margin-bottom: 0px;">
+                        <li>
+                            <div class="dropdown">
+                                <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown"
+                                        aria-haspopup="true" aria-expanded="true"
+                                        style="background:#1D3152;border:0;color:#8699B7;">
+                                    <span class="glyphicon glyphicon-briefcase" aria-hidden="true"></span>
+                                    <span><b>&nbsp;&nbsp;海外事业本部.第三本部.微软开发部</b></span>
+                                </button>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="dropdown">
+                                <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown"
+                                        aria-haspopup="true" aria-expanded="true"
+                                        style="background:#1D3152;border:0;color:#8699B7;">
+                                    <span class="glyphicon glyphicon-user" aria-hidden="true"></span>
+                                    <span><b>&nbsp;&nbsp;朱乾方</b></span>
+                                </button>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="dropdown">
+                                <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown"
+                                        aria-haspopup="true" aria-expanded="true"
+                                        style="background:#1D3152;border:0;color:#8699B7;">
+                                    <span class="glyphicon glyphicon-home" aria-hidden="true"></span><span>
+                                        <b>&nbsp;&nbsp;首页</b>
+                                    </span>
+                                </button>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="dropdown">
+                                <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown"
+                                        aria-haspopup="true" aria-expanded="true"
+                                        style="background:#1D3152;border:0;color:#8699B7;">
+                                    <span class="glyphicon glyphicon-pencil" aria-hidden="true"></span><span>
+                                        <b>&nbsp;&nbsp;修改密码</b>
+                                    </span>
+                                </button>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    <div id="content">
+        @RenderBody()
+    </div>
+        <div id="foot">
+            <div id="foot_content">
+                <span>上海汉得信息技术股份有限公司</span>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+<script>
+
+    var a=document.getElementById('header');
+    var b=document.getElementById('glyphicon glyphicon-menu');
+    a.onclick=function () {
+        if(b.className=="glyphicon glyphicon-menu-down"){
+            b.className= "glyphicon glyphicon-menu-right";
+        }else if(b.className=="glyphicon glyphicon-menu-right"){
+            b.className="glyphicon glyphicon-menu-down";
+        }
+    };
+
+    var c=document.getElementById('header_');
+    var d=document.getElementById('glyphicon glyphicon-menu_');
+    c.onclick=function () {
+        if(d.className=="glyphicon glyphicon-menu-down"){
+            d.className= "glyphicon glyphicon-menu-right";
+        }else if(d.className=="glyphicon glyphicon-menu-right"){
+            d.className="glyphicon glyphicon-menu-down";
+        }
+    };
+
+</script>

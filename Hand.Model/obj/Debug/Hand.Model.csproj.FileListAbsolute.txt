@@ -1,0 +1,69 @@
+C:\Users\hand\Documents\Visual Studio 2015\Projects\WebApplication2\Hand.Model\bin\Debug\Hand.Model.dll.config
+C:\Users\hand\Documents\Visual Studio 2015\Projects\WebApplication2\Hand.Model\bin\Debug\Hand.Model.dll
+C:\Users\hand\Documents\Visual Studio 2015\Projects\WebApplication2\Hand.Model\bin\Debug\Hand.Model.pdb
+C:\Users\hand\Documents\Visual Studio 2015\Projects\WebApplication2\Hand.Model\bin\Debug\EntityFramework.dll
+C:\Users\hand\Documents\Visual Studio 2015\Projects\WebApplication2\Hand.Model\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\hand\Documents\Visual Studio 2015\Projects\WebApplication2\Hand.Model\bin\Debug\EntityFramework.xml
+C:\Users\hand\Documents\Visual Studio 2015\Projects\WebApplication2\Hand.Model\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\hand\Documents\Visual Studio 2015\Projects\WebApplication2\Hand.Model\obj\Debug\Hand.Model.dll
+C:\Users\hand\Documents\Visual Studio 2015\Projects\WebApplication2\Hand.Model\obj\Debug\Hand.Model.pdb
+F:\mvc框架\testFrame\WebApplication2\Hand.Model\bin\Debug\Hand.Model.dll.config
+F:\mvc框架\testFrame\WebApplication2\Hand.Model\bin\Debug\Hand.Model.dll
+F:\mvc框架\testFrame\WebApplication2\Hand.Model\bin\Debug\Hand.Model.pdb
+F:\mvc框架\testFrame\WebApplication2\Hand.Model\bin\Debug\EntityFramework.dll
+F:\mvc框架\testFrame\WebApplication2\Hand.Model\bin\Debug\EntityFramework.SqlServer.dll
+F:\mvc框架\testFrame\WebApplication2\Hand.Model\bin\Debug\EntityFramework.xml
+F:\mvc框架\testFrame\WebApplication2\Hand.Model\bin\Debug\EntityFramework.SqlServer.xml
+F:\mvc框架\testFrame\WebApplication2\Hand.Model\obj\Debug\Hand.Model.dll
+F:\mvc框架\testFrame\WebApplication2\Hand.Model\obj\Debug\Hand.Model.pdb
+E:\Frame\NewFrame\testFrame\WebApplication2\Hand.Model\bin\Debug\Hand.Model.dll.config
+E:\Frame\NewFrame\testFrame\WebApplication2\Hand.Model\bin\Debug\Hand.Model.dll
+E:\Frame\NewFrame\testFrame\WebApplication2\Hand.Model\bin\Debug\Hand.Model.pdb
+E:\Frame\NewFrame\testFrame\WebApplication2\Hand.Model\bin\Debug\EntityFramework.dll
+E:\Frame\NewFrame\testFrame\WebApplication2\Hand.Model\bin\Debug\EntityFramework.SqlServer.dll
+E:\Frame\NewFrame\testFrame\WebApplication2\Hand.Model\bin\Debug\EntityFramework.xml
+E:\Frame\NewFrame\testFrame\WebApplication2\Hand.Model\bin\Debug\EntityFramework.SqlServer.xml
+E:\Frame\NewFrame\testFrame\WebApplication2\Hand.Model\obj\Debug\Hand.Model.csprojResolveAssemblyReference.cache
+E:\Frame\NewFrame\testFrame\WebApplication2\Hand.Model\obj\Debug\Hand.Model.dll
+E:\Frame\NewFrame\testFrame\WebApplication2\Hand.Model\obj\Debug\Hand.Model.pdb
+F:\mvc框架\testFrame\WebApplication2\Hand.Model\obj\Debug\Hand.Model.csprojResolveAssemblyReference.cache
+E:\testFrame\WebApplication2\Hand.Model\bin\Debug\Hand.Model.dll.config
+E:\testFrame\WebApplication2\Hand.Model\bin\Debug\Hand.Model.dll
+E:\testFrame\WebApplication2\Hand.Model\bin\Debug\Hand.Model.pdb
+E:\testFrame\WebApplication2\Hand.Model\bin\Debug\EntityFramework.dll
+E:\testFrame\WebApplication2\Hand.Model\bin\Debug\EntityFramework.SqlServer.dll
+E:\testFrame\WebApplication2\Hand.Model\bin\Debug\EntityFramework.xml
+E:\testFrame\WebApplication2\Hand.Model\bin\Debug\EntityFramework.SqlServer.xml
+E:\testFrame\WebApplication2\Hand.Model\obj\Debug\Hand.Model.csprojResolveAssemblyReference.cache
+E:\testFrame\WebApplication2\Hand.Model\obj\Debug\Hand.Model.dll
+E:\testFrame\WebApplication2\Hand.Model\obj\Debug\Hand.Model.pdb
+E:\MVC\testFrame\WebApplication2\Hand.Model\bin\Debug\Hand.Model.dll.config
+E:\MVC\testFrame\WebApplication2\Hand.Model\bin\Debug\Hand.Model.dll
+E:\MVC\testFrame\WebApplication2\Hand.Model\bin\Debug\Hand.Model.pdb
+E:\MVC\testFrame\WebApplication2\Hand.Model\bin\Debug\EntityFramework.dll
+E:\MVC\testFrame\WebApplication2\Hand.Model\bin\Debug\EntityFramework.SqlServer.dll
+E:\MVC\testFrame\WebApplication2\Hand.Model\bin\Debug\EntityFramework.xml
+E:\MVC\testFrame\WebApplication2\Hand.Model\bin\Debug\EntityFramework.SqlServer.xml
+E:\MVC\testFrame\WebApplication2\Hand.Model\obj\Debug\Hand.Model.csprojResolveAssemblyReference.cache
+E:\MVC\testFrame\WebApplication2\Hand.Model\obj\Debug\Hand.Model.dll
+E:\MVC\testFrame\WebApplication2\Hand.Model\obj\Debug\Hand.Model.pdb
+F:\testFrame\WebApplication2\Hand.Model\bin\Debug\Hand.Model.dll.config
+F:\testFrame\WebApplication2\Hand.Model\bin\Debug\Hand.Model.dll
+F:\testFrame\WebApplication2\Hand.Model\bin\Debug\Hand.Model.pdb
+F:\testFrame\WebApplication2\Hand.Model\bin\Debug\EntityFramework.dll
+F:\testFrame\WebApplication2\Hand.Model\bin\Debug\EntityFramework.SqlServer.dll
+F:\testFrame\WebApplication2\Hand.Model\bin\Debug\EntityFramework.xml
+F:\testFrame\WebApplication2\Hand.Model\bin\Debug\EntityFramework.SqlServer.xml
+F:\testFrame\WebApplication2\Hand.Model\obj\Debug\Hand.Model.dll
+F:\testFrame\WebApplication2\Hand.Model\obj\Debug\Hand.Model.pdb
+F:\testFrame\WebApplication2\Hand.Model\obj\Debug\Hand.Model.csprojResolveAssemblyReference.cache
+E:\HandFrame\WebApplication2\Hand.Model\bin\Debug\Hand.Model.dll.config
+E:\HandFrame\WebApplication2\Hand.Model\bin\Debug\Hand.Model.dll
+E:\HandFrame\WebApplication2\Hand.Model\bin\Debug\Hand.Model.pdb
+E:\HandFrame\WebApplication2\Hand.Model\bin\Debug\EntityFramework.dll
+E:\HandFrame\WebApplication2\Hand.Model\bin\Debug\EntityFramework.SqlServer.dll
+E:\HandFrame\WebApplication2\Hand.Model\bin\Debug\EntityFramework.xml
+E:\HandFrame\WebApplication2\Hand.Model\bin\Debug\EntityFramework.SqlServer.xml
+E:\HandFrame\WebApplication2\Hand.Model\obj\Debug\Hand.Model.csprojResolveAssemblyReference.cache
+E:\HandFrame\WebApplication2\Hand.Model\obj\Debug\Hand.Model.dll
+E:\HandFrame\WebApplication2\Hand.Model\obj\Debug\Hand.Model.pdb

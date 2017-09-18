@@ -1,0 +1,1 @@
+﻿var GreataAPIServer = 'http://222.73.173.30:8088';

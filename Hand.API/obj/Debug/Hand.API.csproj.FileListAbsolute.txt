@@ -1,0 +1,9 @@
+C:\Users\hand\Documents\Visual Studio 2015\Projects\WebApplication2\Hand.API\bin\Debug\Hand.API.dll
+C:\Users\hand\Documents\Visual Studio 2015\Projects\WebApplication2\Hand.API\bin\Debug\Hand.API.pdb
+C:\Users\hand\Documents\Visual Studio 2015\Projects\WebApplication2\Hand.API\obj\Debug\Hand.API.csprojResolveAssemblyReference.cache
+C:\Users\hand\Documents\Visual Studio 2015\Projects\WebApplication2\Hand.API\obj\Debug\Hand.API.dll
+C:\Users\hand\Documents\Visual Studio 2015\Projects\WebApplication2\Hand.API\obj\Debug\Hand.API.pdb
+F:\mvc框架\testFrame\WebApplication2\Hand.API\bin\Debug\Hand.API.dll
+F:\mvc框架\testFrame\WebApplication2\Hand.API\bin\Debug\Hand.API.pdb
+F:\mvc框架\testFrame\WebApplication2\Hand.API\obj\Debug\Hand.API.dll
+F:\mvc框架\testFrame\WebApplication2\Hand.API\obj\Debug\Hand.API.pdb

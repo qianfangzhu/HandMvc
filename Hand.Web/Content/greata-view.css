@@ -1,0 +1,135 @@
+﻿.ge-registerview-header {
+    background-color: #e4e9ec;
+    width: 98%;
+    height: 75px;
+    float: left;
+    padding-left:30px;
+}
+    .ge-registerview-header .title {
+        float: left;
+        width: 70%;
+    }
+        .ge-registerview-header .title .type {
+            font-size: 14px;
+            margin-top: 10px;
+            color: #525c73
+        }
+        .ge-registerview-header .title .name {
+            font-size: 20px;
+            line-height: 40px;
+            color: #11254a;
+            font-weight: bold
+        }
+    .ge-registerview-header .icons {
+        float: right;
+        width: 20%;
+        padding-top: 25px;
+    }
+        .ge-registerview-header .icons .icon {
+            float: right;
+            margin-right: 30px;
+        }
+
+        .ge-registerview-header .icons img {
+            vertical-align: bottom;
+        }
+
+            .ge-registerview-header .icons img.split {
+                margin-top: -5px;
+            }
+
+.ge-registerview-grid {
+    float: left;
+    width: 100%;
+}
+
+.ge-registerview-toolbar {
+    background-color: #f5f5f5;
+    float: left;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: 98%;
+}
+
+    .ge-registerview-toolbar .icons {
+        float: left;
+        margin-left: 20px;
+    }
+
+        .ge-registerview-toolbar .icons .icon {
+            margin-left: 10px;
+        }
+
+    .ge-registerview-toolbar .viewlist {
+        height: 42px;
+        border-radius: 20px;
+        min-width: 200px;
+        padding-left: 30px;
+        background-color: #e4e9ec;
+    }
+
+    .ge-registerview-toolbar .pager-body {
+        margin-right: 30px;
+        margin-left:50px;
+        float: right;
+    }
+
+        .ge-registerview-toolbar .pager-body span {
+            display: inline-block;
+        }
+        .ge-registerview-toolbar .pager-body .pageinput {
+            width: 50px;
+            height: 40px;
+            text-align: center
+        }
+
+    .ge-registerview-toolbar .pager {
+        display: inline-block;
+        height: 38px;
+        margin: 0px;
+        width: 30px;
+    }
+
+    .ge-registerview-toolbar .pager-prev {
+        background: url(/Content/images/registerview/page_prev_on.png);
+    }
+
+    .ge-registerview-toolbar .pager-next {
+        background: url(/Content/images/registerview/page_next_on.png);
+    }
+
+.ge-registerview-body .datagrid {
+    position: relative;
+    float: left;
+    width: 99%;
+}
+    .ge-registerview-body .datagrid .greata-ui-grid {
+        width: 99%;
+        overflow: hidden;
+    }
+    .ge-registerview-body .datagrid .loading {
+        width: 100%;
+        height:600px;
+        background-color: #fff;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+    }
+    .ge-registerview-body .datagrid .loader-inner {
+        text-align: center;
+        margin: 150px auto 0px auto;
+        z-index: 999
+    }
+        .ge-registerview-body .datagrid .loader-inner .loader {
+            background-color: #1f3257;
+            margin: 0px auto 0px auto
+        }
+        .ge-registerview-body .datagrid .loader-inner .text {
+            height: 40px;
+            line-height: 40px;
+            font-weight: bold
+        }
+
+.attachment-header{
+    background-image:url(/Content/images/icon_attachment.png);
+}

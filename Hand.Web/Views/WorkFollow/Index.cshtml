@@ -1,0 +1,37 @@
+﻿
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    ViewBag.Title = "Index";
+}
+<link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<link href="~/Content/ui-grid.css?v=1.0" rel="stylesheet" />
+<link href="~/Content/ui-grid-greata.css" rel="stylesheet" />
+<link href="~/Content/greata-view.css?v=1.0" rel="stylesheet" type="text/css" />
+<link href="~/Content/icon.css" rel="stylesheet" />.
+<link href="~/Content/search.css" rel="stylesheet" />
+<script src="~/Scripts/layer.js"></script>
+<link href="~/Content/Login/Css/layer.css" rel="stylesheet" />
+
+<div class="ge-registerview-body" ng-app="app" style="padding-left: 35px;">
+    <div class="ge-registerview-header">
+        <div class="title">
+            <div class="type">工作流管理</div>
+            <div class="name">工作流信息查询</div>
+        </div>
+    </div>
+    <div class="ge-registerview-grid" ng-controller="WorkFlow">
+        <div class="datagrid">
+            <div class="greata-ui-grid" ui-grid="gridOptions" ui-grid-pagination></div>
+        </div>
+    </div>
+
+</div>
+
+<script src="~/Scripts/bootstrap.min.js"></script>
+<script src="~/Scripts/jquery-1.10.2.min.js"></script>
+<script src="~/Scripts/greata-config.js"></script>
+<script src="~/Scripts/angular.min.js" type="text/javascript"></script>
+<script src="~/Scripts/ui-grid.js" type="text/javascript"></script>
+<script src="~/Scripts/WorkFlow/workFlow.js?v=1.0"></script>
+
+

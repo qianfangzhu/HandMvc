@@ -1,0 +1,85 @@
+﻿
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    ViewBag.Title = "人员管理";
+}
+<link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<link href="~/Content/ui-grid.css?v=1.0" rel="stylesheet" />
+<link href="~/Content/ui-grid-greata.css" rel="stylesheet" />
+<link href="~/Content/greata-view.css?v=1.0" rel="stylesheet" type="text/css" />
+<link href="~/Content/icon.css" rel="stylesheet" />.
+<link href="~/Content/search.css" rel="stylesheet" />
+<script src="~/Scripts/layer.js"></script>
+<link href="~/Content/Login/Css/layer.css" rel="stylesheet" />
+
+
+<div class="ge-registerview-body" ng-app="app" style="padding-left: 35px;">
+    <div class="ge-registerview-header">
+        <div class="title">
+            <div class="type">人员管理</div>
+            <div class="name">员工信息查询</div>
+        </div>
+    </div>
+    <div id="MainDiv" class="ge-registerview-grid" ng-controller="MainCtrl">
+        <div class="ge-registerview-toolbar">
+            <div class="icons">
+                @*<a href="" styleclass="icon" id="addMoudle"><img src="~/Content/images/registerview/icon_add.png" title="新建"/></a>
+                    <a href="" class="icon" id="moudleFresh"><img src="~/Content/images/registerview/icon_refresh.png" title="刷新"/></a>*@
+            </div>
+            @*<div class="pager-body">
+                    <div style="float: left" ng-init="page=1">
+                        <span>Page</span>
+                        <input id="cp" type="text" class="pageinput" ng-model="page" ng-change="gridApi2.pagination.seek(page);maxpage()" />
+                        <span id="totalPage"> of {{ gridApi2.pagination.getTotalPages() }}</span>
+                    </div>
+                    <div style="float: left; margin-left: 15px">
+                        <a class="pager pager-prev" ng-click="gridApi2.pagination.previousPage();pp()"></a>
+                        <a class="pager pager-next" ng-click="gridApi2.pagination.nextPage();np()"></a>
+                    </div>
+                </div>*@
+            <div id="Search_content">
+                <input type="text" placeholder="请输入关键字">
+                <div id="Search_btn">搜索</div>
+            </div>
+
+        </div>
+        <div class="datagrid">
+            <div id="EmployeeGrid" class="greata-ui-grid" ui-grid="gridOptions" ui-grid-pagination></div>
+            <div id="edit_btn">
+                <input type="button" value="添加" onclick="edit()" />
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<script src="~/Scripts/bootstrap.min.js"></script>
+<script src="~/Scripts/jquery-1.10.2.min.js"></script>
+<script src="~/Scripts/greata-config.js"></script>
+<script src="~/Scripts/angular.min.js" type="text/javascript"></script>
+<script src="~/Scripts/ui-grid.js" type="text/javascript"></script>
+<script src="~/Scripts/User/Employee.js?v=1.1"></script>
+
+<script>
+    window.onload = function () {
+        var allcookies = document.cookie;
+        var cookiePos = allcookies.indexOf("empNo");   //索引的长度
+        if (cookiePos != -1) {
+
+        }
+        else {
+            var returnUrl = "/User/Index";
+            window.location.href = "/User/Login?ReturnUrl=" + returnUrl;
+        }
+    }
+
+    function edit() {
+        layer.open({
+            type: 2,
+            title: "编辑",
+            skin: 'layui-layer-rim', //加上边框onRegisterApi
+            area: ['68%', '80%', '16%'], //宽高
+            content: "/User/EditEmployee"
+        });
+    }
+</script>

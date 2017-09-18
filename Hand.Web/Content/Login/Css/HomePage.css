@@ -1,0 +1,131 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+}
+
+#wrap {
+    width: 100%;
+    height: 1000px;
+}
+
+#main_table {
+    width: 80%;
+    height: 1000px;
+    margin: 0 auto;
+}
+
+.main_input {
+    height: 25px;
+}
+
+.table_left {
+    width: 250px;
+    text-align: right;
+    color:#67696C;
+}
+
+.table_right {
+    padding-left: 50px;
+}
+
+.table_right input {
+    width: 600px;
+    height: 35px;
+    border-radius: 5px;
+    border:2px solid #E5E5E5;
+    outline:none;
+
+}
+#Desc{
+    padding-left: 50px;
+}
+#Desc input{
+    width: 600px;
+    height: 35px;
+    border-radius: 5px;
+    border:2px solid #E5E5E5;
+    outline:none;
+}
+
+.table_right select {
+    width: 600px;
+    height: 35px;
+    border-radius: 5px;
+    border:2px solid #E5E5E5;
+    outline:none;
+    color:#67696C;
+}
+
+
+.circle {
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    border: 2px solid black;
+    background: white;
+    outline: none;
+}
+
+#Grid {
+    width: 70%;
+    height: 210px;
+    background: white;
+    margin: 0 auto;
+}
+
+#Grid table tr {
+    height: 50px;
+}
+
+#Grid table tr td {
+    width: 25%;
+    text-align: center;
+}
+
+#Grid table tr .Grid_input_style input {
+    width: 95%;
+    text-align: center;
+    outline: none;
+    font-size: 14px;
+
+}
+
+#Grid table tr td {
+    font-size: 14px;
+}
+
+#Grid table tr .Grid_button_style button {
+    width: 65px;
+    background: #D3D3D3;
+    border-radius: 5px;
+    outline: none;
+    height: 24px;
+}
+
+#foot{
+    width:35%;
+    height:100px;
+    margin:0 auto;
+}
+
+#foot input{
+    width: 45%;
+    height: 40px;
+    border-radius: 25px;
+    color:white;
+    margin:26px auto;
+    border:0px;
+    font-size:15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+

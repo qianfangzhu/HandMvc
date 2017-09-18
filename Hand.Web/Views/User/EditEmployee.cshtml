@@ -1,0 +1,130 @@
+﻿<link href="~/Content/Login/Css/HomePage.css" rel="stylesheet" />
+<script src="~/Scripts/jquery-1.10.2.js"></script>
+
+<div id="wrap">
+    <input type="text" value="@ViewBag.empId" id="txtId" hidden="hidden" />
+    <table id="main_table">
+        <tr>
+            <td class="table_left">员工工号</td>
+            <td class="table_right"><input type="text" id="empNo" maxlength="20" class="main_input"></td>
+        </tr>
+        <tr>
+            <td class="table_left">员工姓名</td>
+            <td class="table_right"><input type="text" id="empName" maxlength="20" class="main_input"></td>
+        </tr>
+        <tr>
+            <td style="width: 250px; padding-left: 9px; text-align: right; color: #67696C;">电子邮件</td>
+            <td class="table_right"><input type="text" id="empMail" value=""></td>
+        </tr>
+        <tr>
+            <td class="table_left">手机号码</td>
+            <td class="table_right"><input type="text" id="empPhone" maxlength="20"></td>
+        </tr>
+        <tr>
+            <td class="table_left">入职时间</td>
+            <td class="table_right"><input type="text" id="empDate" value=""></td>
+        </tr>
+        <tr>
+            <td class="table_left">工作地点</td>
+            <td class="table_right"><input type="text" id="empPos" value=""></td>
+        </tr>
+        <tr>
+            <td class="table_left">岗位职责</td>
+            <td class="table_right">
+                @Html.DropDownList("empPost", new SelectList(ViewBag.SelectItem, "Value", "Text"))
+            </td>
+        </tr>
+        <tr>
+            <td class="table_left">所在部门</td>
+            <td class="table_right"><input type="text" id="empDept" maxlength="20"></td>
+        </tr>
+    </table>
+</div>
+
+<div id="foot">
+    <input type="button" value="确认" style="background:#0E2547;" id="btnConfirm">
+    <input type="button" value="取消" style="float:right;background: red;" id="btnCancel">
+</div>
+
+<script>
+    id = $("#txtId").val();
+    if (id != "") {
+        var openUrl = 'http://10.211.53.211:1314/user/getEmp/' + parseInt(id);
+        $.ajax({
+            url: openUrl,
+            type: "GET",
+            success: function (data) {
+                $("#empNo").val(data.EmpNo);
+                $("#empNo").attr("disabled", "disabled");
+                $("#empName").val(data.EmpName);
+                $("#empName").attr("disabled", "disabled");
+                $("#empPhone").val(data.EmpMobile);
+                $("#empMail").val(data.EmpEmail);
+                $("#empPost").val(data.EmpRoleName);
+                $("#empPos").val(data.EmpWorkAddress);
+                $("#empDate").val(data.EmpJoinTime);
+                $("#empDate").attr("disabled", "disabled");
+                $("#empDept").val(data.EmpDeptName);
+            },
+            error: function () {
+                alert("失败");
+            }
+        });
+        $("#btnConfirm")
+            .click(function () {
+                $.ajax({
+                    url: "http://10.211.53.211:1314/user/edit/" + parseInt(id),
+                    type: "PUT",
+                    data: {
+                        "emp_No": $("#empNo").val(),
+                        "emp_name": $("#empName").val(),
+                        "emp_mobile": $("#empPhone").val(),
+                        "emp_email": $("#empMail").val(),
+                        "emp_role_id": $("#empPost").val(),
+                        "emp_workaddress": $("#empPos").val(),
+                        "emp_jointime": $("#empDate").val(),
+                        "emp_dept_id": $("#empDept").val()
+                    },
+                    success: function () {
+                        alert("成功");
+                        var index = parent.layer.getFrameIndex(window.name); //获取窗口唯一标识
+                        parent.layer.close(index);
+                        window.parent.location = window.parent.location;
+                    },
+                    error: function () {
+                        alert("错误");
+                    }
+                });
+            });
+    } else {
+        $("#btnConfirm").click(function () {
+            $.ajax({
+                url: "http://10.211.53.211:1314/user/add",
+                type: "post",
+                data: {
+                    "emp_No": $("#empNo").val(),
+                    "emp_name": $("#empName").val(),
+                    "emp_mobile": $("#empPhone").val(),
+                    "emp_email": $("#empMail").val(),
+                    "emp_role_id": $("#empPost").val(),
+                    "emp_workaddress": $("#empPos").val(),
+                    "emp_jointime": $("#empDate").val(),
+                    "emp_dept_id": $("#empDept").val()
+                },
+                success: function () {
+                    alert("成功");
+                    var index = parent.layer.getFrameIndex(window.name); //获取窗口唯一标识
+                    parent.layer.close(index);
+                    window.parent.location = window.parent.location;
+                },
+                error: function () {
+                    alert("错误");
+                }
+            });
+        });
+    }
+    $("#btnCancel").click(function () {
+        var index = parent.layer.getFrameIndex(window.name); //获取窗口唯一标识
+        parent.layer.close(index);
+    });
+</script>

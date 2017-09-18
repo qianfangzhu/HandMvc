@@ -1,0 +1,38 @@
+﻿.ui-grid-header-cell {
+    height: 60px;
+    /*top: -13px;*/
+}
+
+.ui-grid-header-cell-primary-focus {
+    height: 30px;
+    line-height: 30px;
+    text-indent: 10px;
+}
+
+.ui-grid-header {
+    color: #fff;
+}
+
+.ui-grid-header-cell .ui-grid-selection-row-header-buttons {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.ui-grid-top-panel {
+    background: #1f3257;
+}
+
+.ui-grid-cell {
+    line-height: 60px;
+    text-indent: 10px;
+}
+
+.ui-grid-selection-row-header-buttons {
+    text-align:center;
+    text-indent: 0px;
+    margin-top: 0px;
+}
+
+.ui-grid-column-menu-button {
+    top: 6px;
+}
