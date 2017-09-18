@@ -17,3 +17,8 @@ E:\HandFrame\WebApplication2\Hand.Enum\bin\Debug\Hand.Enum.dll
 E:\HandFrame\WebApplication2\Hand.Enum\bin\Debug\Hand.Enum.pdb
 E:\HandFrame\WebApplication2\Hand.Enum\obj\Debug\Hand.Enum.dll
 E:\HandFrame\WebApplication2\Hand.Enum\obj\Debug\Hand.Enum.pdb
+E:\HandMvc\Hand.Enum\bin\Debug\Hand.Enum.dll
+E:\HandMvc\Hand.Enum\bin\Debug\Hand.Enum.pdb
+E:\HandMvc\Hand.Enum\obj\Debug\Hand.Enum.csprojResolveAssemblyReference.cache
+E:\HandMvc\Hand.Enum\obj\Debug\Hand.Enum.dll
+E:\HandMvc\Hand.Enum\obj\Debug\Hand.Enum.pdb

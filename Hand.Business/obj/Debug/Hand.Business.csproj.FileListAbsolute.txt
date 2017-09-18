@@ -92,3 +92,17 @@ E:\HandFrame\WebApplication2\Hand.Business\bin\Debug\EntityFramework.SqlServer.x
 E:\HandFrame\WebApplication2\Hand.Business\obj\Debug\Hand.Business.csprojResolveAssemblyReference.cache
 E:\HandFrame\WebApplication2\Hand.Business\obj\Debug\Hand.Business.dll
 E:\HandFrame\WebApplication2\Hand.Business\obj\Debug\Hand.Business.pdb
+E:\HandMvc\Hand.Business\bin\Debug\Hand.Business.dll.config
+E:\HandMvc\Hand.Business\bin\Debug\Hand.Business.dll
+E:\HandMvc\Hand.Business\bin\Debug\Hand.Business.pdb
+E:\HandMvc\Hand.Business\bin\Debug\EntityFramework.dll
+E:\HandMvc\Hand.Business\bin\Debug\EntityFramework.SqlServer.dll
+E:\HandMvc\Hand.Business\bin\Debug\Hand.Enum.dll
+E:\HandMvc\Hand.Business\bin\Debug\Hand.Model.dll
+E:\HandMvc\Hand.Business\bin\Debug\Hand.Enum.pdb
+E:\HandMvc\Hand.Business\bin\Debug\Hand.Model.pdb
+E:\HandMvc\Hand.Business\bin\Debug\EntityFramework.xml
+E:\HandMvc\Hand.Business\bin\Debug\EntityFramework.SqlServer.xml
+E:\HandMvc\Hand.Business\obj\Debug\Hand.Business.csprojResolveAssemblyReference.cache
+E:\HandMvc\Hand.Business\obj\Debug\Hand.Business.dll
+E:\HandMvc\Hand.Business\obj\Debug\Hand.Business.pdb
